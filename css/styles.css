@@ -21,10 +21,11 @@ h1 {
   line-height: 1.5;
 }
 
+/* h3 from feature section */
 h3 {
   font-family: "Montserrat", sans-serif;
 }
-
+/* p from section */
 p {
   color: #8f8f8f;
 }
@@ -41,17 +42,18 @@ p {
   font-weight: bold;
 }
 
-/* Editing in nav items */
+/* Editing in nav items from title section*/
 .nav-item {
   padding: 0 18px;
 }
 
+/* nav-items from title section */
 .nav-link {
   font-size: 1.3rem;
   font-family: 'Montserrat-Extra-light', sans-serif;
 }
 
-/* Download button */
+/* Download button from title section*/
 .Download-button {
   margin: 5% 3% 5% 0;
 }
@@ -73,11 +75,13 @@ p {
   padding: 5%;
 }
 
+/* changed deafult color of icon */
 .feature-icon {
   margin: 1rem;
   color: #f76a8c;
 }
 
+/* chnaged color while hovering */
 .feature-icon:hover {
   color: #ff4c68;
 }
