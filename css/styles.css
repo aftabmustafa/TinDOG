@@ -21,10 +21,6 @@ h1 {
   line-height: 1.5;
 }
 
-/* h3 from feature section */
-h3 {
-  font-family: "Montserrat", sans-serif;
-}
 /* p from section */
 p {
   color: #8f8f8f;
@@ -84,4 +80,40 @@ p {
 /* chnaged color while hovering */
 .feature-icon:hover {
   color: #ff4c68;
+}
+
+.feature-h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #f76a8c;
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press Section */
+#press {
+  background-color: #f76a8c;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
