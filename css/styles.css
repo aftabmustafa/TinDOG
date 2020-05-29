@@ -11,7 +11,7 @@ body {
 
 /* added some padding around title section */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 9.5%;
 }
 
 /* Changed font family, size and line heigh of h1 residing inside title section */
@@ -58,12 +58,15 @@ p {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  padding: 5%;
+  position: absolute;
+  left: 50px;
 }
 
 /* Feature Box */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
@@ -122,7 +125,6 @@ p {
 }
 
 /* Pricing section */
-
 #pricing {
   padding: 100px;
   text-align: center;
@@ -130,4 +132,25 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Media Query for mobile responsive */
+@media (max-width: 991px) {
+  .col-lg-6 {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+
+  .container-fluid {
+    padding: 3% 15%;
+  }
+
+  #feature {
+    position: static;
+  }
 }
