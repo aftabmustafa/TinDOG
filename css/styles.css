@@ -9,7 +9,7 @@ body {
   color: #fff;
 }
 
-/* added some padding in title section */
+/* added some padding around title section */
 .container-fluid {
   padding: 3% 15%;
 }
@@ -90,8 +90,11 @@ p {
 #testimonials {
   background-color: #f76a8c;
   text-align: center;
-  padding: 7% 15%;
   color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .testimonial-img {
