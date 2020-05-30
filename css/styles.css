@@ -130,8 +130,51 @@ p {
   text-align: center;
 }
 
+.pricing-h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .pricing-column {
   padding: 3% 2%;
+}
+
+.pricing-h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* call to action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 25%;
+}
+
+.cta-h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 1% 15%;
+}
+
+.footer-icon {
+  margin: 5% 3% 2% 0;
+  color: #f76a8c;
+}
+
+.footer-p {
+  
+  position: relative;
+  right: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* Media Query for mobile responsive */
