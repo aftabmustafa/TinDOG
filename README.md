@@ -1,4 +1,4 @@
 # TinDOG
-A Web project using html and bootstrap
+A Webpage using html and bootstrap
 
 https://aftabmustafa.github.io/TinDOG/
